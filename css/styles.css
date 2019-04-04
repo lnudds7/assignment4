@@ -32,10 +32,8 @@ main a {
 
 header ul li {
     
-    display: flex;
     display: inline;
     padding-right: 50px;
-/*    justify-content: flex-end;*/
    
 
 }

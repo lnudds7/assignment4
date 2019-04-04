@@ -1,0 +1,67 @@
+html {
+    color: #ccc;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.creamsicle {
+    color: #EFC69B
+}
+
+body {
+
+    background-color: #283845
+}
+
+header {
+
+    display: flex;
+    background-color: #ACBEA3;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 650;
+
+}
+
+
+main a {
+    
+    padding-bottom: 
+}
+
+header ul li {
+    
+    display: flex;
+    display: inline;
+    padding-right: 50px;
+/*    justify-content: flex-end;*/
+   
+
+}
+
+a {
+
+    color: #40476D;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #646d5f;
+    transition: color .3s;
+}
+
+
+ul {
+
+    list-style-type: none;
+
+}
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column
+    }
+}

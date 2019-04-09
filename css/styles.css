@@ -29,7 +29,6 @@ header {
 
 header nav {
     
-/*    align-items: center; WHY IS NOTHING WORKING*/
     flex: 3
 }
 
@@ -72,8 +71,28 @@ ul {
 
 }
 
+
+form div {
+    
+    display: flex;
+    align-items: baseline;
+    
+
+    
+}
+
+
 @media screen and (max-width: 40rem) {
     header {
-        flex-direction: column
+        flex-direction: column,
+    
+    }
+}
+
+@media screen and (max-width: 30rem) {
+    header,
+    form div {
+        flex-direction: column,
+    
     }
 }

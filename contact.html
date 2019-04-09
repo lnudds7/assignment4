@@ -26,19 +26,59 @@
 
     <main>
 
-        <form>
+        <form action="thankyou.html">
 
             <p> Give Us Some Feedback!</p>
 
-            <p> <label for="firstname">First Name:</label>
-                <input type="text" name="firstname" id="firstname"></p>
+            <div> <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname"></div>
+            <br>
 
-            <p>
+            <div>
                 <label for="lastname">Last Name:</label>
-                <input type="text" name="lastname" id="lastname"> </p>
+                <input type="text" name="lastname" id="lastname"> </div>
+            <br>
 
-            <p><label for="email">Email:</label>
-                <input type="text" name="email" id="email"></p>
+            <div><label for="email">Email:</label>
+                <input type="text" name="email" id="email"></div>
+            <br>
+
+            <div>
+                <label for="how-did-you-get-here">How did you end up here?</label>
+                <select name="how-did-you-get-here" id="how-did-you-get-here" multiple="true">
+                <option value="email">We Somehow Got Your Email</option>
+                <option value="ad">You Saw Our Brilliant Advertisements</option>
+                <option value="referral">Some Genius Person Told You About Us</option>
+                <option value="website">You Searched on Google and We Showed Up</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="nicecomments">Any nice things you wanna say?</label>
+                <textarea name="nicecomments" id="nicecomments" rows="4" cols="40"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="criticism">Any constructive criticism?</label>
+                <textarea name="criticism" id="criticism" rows="4" cols="40"></textarea>
+            </div>
+            <br>
+            <div class="radio-buttons">
+                <label for="join-newsletter">Do you wanna get awesome coupons?</label>
+                <input type="radio" name="join-newsletter" value="Duh" checked>Duh
+                <input type="radio" name="join-newsletter" value="Ew-no" checked>Ew No
+            </div>
+            <br>
+
+            <div class="checkboxes">
+                <label for="fav-makeup">What do you use most often?</label>
+                <input type="checkbox" name="fav-makeup" value="Makeup">Everyday Makeup
+                <input type="checkbox" name="fav-makeup" value="Glam">Glam Makeup
+                <input type="checkbox" name="fav-makeup" value="Skincare">Skincare
+                <input type="checkbox" name="fav-makeup" value="SPF">SPF
+                <input type="checkbox" name="fav-makeup" value="soap">A Simple Bar of Soap
+                <br>
+            </div>
 
 
         </form>

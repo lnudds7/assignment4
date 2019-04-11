@@ -72,15 +72,14 @@ ul {
 }
 
 
-form div {
+main div p {
     
     display: flex;
-    align-items: baseline;
-    
-
+    justify-content: center;
+    align-items: center;
     
 }
-
+ 
 
 @media screen and (max-width: 40rem) {
     header {

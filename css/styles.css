@@ -5,13 +5,15 @@ html {
 }
 
 .creamsicle {
-    color: #EFC69B
+    color: #EFC69B;
 }
+
+.thankyou {}
 
 body {
 
     background-color: #283845;
-   
+
 }
 
 header {
@@ -21,33 +23,31 @@ header {
     flex-direction: column;
     text-transform: uppercase;
     font-family: sans-serif;
-    font-weight: 650; 
-
-    
+    font-weight: bolder
 }
 
 
 header nav {
-    
+
     flex: 3
 }
 
 main {
-    
+
     display: flex;
     flex-direction: column;
-
-   
+    justify-content: center;
+    align-items: center
 }
 
 
 
 header ul li {
-    
+
     display: inline;
     padding-right: 50px;
-  
-   
+
+
 
 }
 
@@ -73,25 +73,30 @@ ul {
 
 
 main div p {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
- 
+
+main p a {
+
+    justify-content: space-between;
+}
+
 
 @media screen and (max-width: 40rem) {
     header {
-        flex-direction: column,
-    
+        flex-direction: column;
     }
 }
 
 @media screen and (max-width: 30rem) {
+
     header,
     form div {
-        flex-direction: column,
-    
+        flex-direction: column;
+
     }
 }
